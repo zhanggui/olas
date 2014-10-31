@@ -12,7 +12,8 @@
 		845D8BF71A0366B6001ADBCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D8BF61A0366B6001ADBCA /* Images.xcassets */; };
 		845D8BFA1A0366B6001ADBCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D8BF81A0366B6001ADBCA /* LaunchScreen.xib */; };
 		845D8C061A0366B6001ADBCA /* olasiphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C051A0366B6001ADBCA /* olasiphoneTests.m */; };
-		845D8C131A036731001ADBCA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C121A036731001ADBCA /* BaseViewController.m */; };
+		845D8C171A0367E1001ADBCA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C151A0367E1001ADBCA /* BaseViewController.m */; };
+		845D8C181A0367E1001ADBCA /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D8C161A0367E1001ADBCA /* BaseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,9 @@
 		845D8BFF1A0366B6001ADBCA /* olasiphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olasiphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845D8C041A0366B6001ADBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845D8C051A0366B6001ADBCA /* olasiphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = olasiphoneTests.m; sourceTree = "<group>"; };
-		845D8C111A036731001ADBCA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		845D8C121A036731001ADBCA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		845D8C141A0367E1001ADBCA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = olasiphone/ViewController/BaseViewController/BaseViewController.h; sourceTree = SOURCE_ROOT; };
+		845D8C151A0367E1001ADBCA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = olasiphone/ViewController/BaseViewController/BaseViewController.m; sourceTree = SOURCE_ROOT; };
+		845D8C161A0367E1001ADBCA /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BaseViewController.xib; path = olasiphone/ViewController/BaseViewController/BaseViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +128,9 @@
 		845D8C101A03671D001ADBCA /* BaseViewCotroller */ = {
 			isa = PBXGroup;
 			children = (
-				845D8C111A036731001ADBCA /* BaseViewController.h */,
-				845D8C121A036731001ADBCA /* BaseViewController.m */,
+				845D8C141A0367E1001ADBCA /* BaseViewController.h */,
+				845D8C151A0367E1001ADBCA /* BaseViewController.m */,
+				845D8C161A0367E1001ADBCA /* BaseViewController.xib */,
 			);
 			path = BaseViewCotroller;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845D8C181A0367E1001ADBCA /* BaseViewController.xib in Resources */,
 				845D8BFA1A0366B6001ADBCA /* LaunchScreen.xib in Resources */,
 				845D8BF71A0366B6001ADBCA /* Images.xcassets in Resources */,
 			);
@@ -232,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845D8BEF1A0366B6001ADBCA /* AppDelegate.m in Sources */,
-				845D8C131A036731001ADBCA /* BaseViewController.m in Sources */,
+				845D8C171A0367E1001ADBCA /* BaseViewController.m in Sources */,
 				845D8BEC1A0366B6001ADBCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
