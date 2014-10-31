@@ -14,6 +14,11 @@
 		845D8C061A0366B6001ADBCA /* olasiphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C051A0366B6001ADBCA /* olasiphoneTests.m */; };
 		845D8C171A0367E1001ADBCA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C151A0367E1001ADBCA /* BaseViewController.m */; };
 		845D8C181A0367E1001ADBCA /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D8C161A0367E1001ADBCA /* BaseViewController.xib */; };
+		845D8C1F1A036B65001ADBCA /* AgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C1B1A036B65001ADBCA /* AgreementViewController.m */; };
+		845D8C201A036B65001ADBCA /* InstallDocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C1E1A036B65001ADBCA /* InstallDocViewController.m */; };
+		845D8C251A036BD7001ADBCA /* Globle.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C241A036BD7001ADBCA /* Globle.m */; };
+		845D8C2C1A036C9C001ADBCA /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C2B1A036C9C001ADBCA /* MyLabel.m */; };
+		E5547A80812F4A50978109BC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D68803C4A4254B88BF34F23B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B052BF789C4B7EBB2BCA95 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		845D8BE61A0366B6001ADBCA /* olasiphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olasiphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845D8BEA1A0366B6001ADBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845D8BEB1A0366B6001ADBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,16 @@
 		845D8C141A0367E1001ADBCA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = olasiphone/ViewController/BaseViewController/BaseViewController.h; sourceTree = SOURCE_ROOT; };
 		845D8C151A0367E1001ADBCA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = olasiphone/ViewController/BaseViewController/BaseViewController.m; sourceTree = SOURCE_ROOT; };
 		845D8C161A0367E1001ADBCA /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BaseViewController.xib; path = olasiphone/ViewController/BaseViewController/BaseViewController.xib; sourceTree = SOURCE_ROOT; };
+		845D8C1A1A036B65001ADBCA /* AgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgreementViewController.h; sourceTree = "<group>"; };
+		845D8C1B1A036B65001ADBCA /* AgreementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgreementViewController.m; sourceTree = "<group>"; };
+		845D8C1D1A036B65001ADBCA /* InstallDocViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallDocViewController.h; sourceTree = "<group>"; };
+		845D8C1E1A036B65001ADBCA /* InstallDocViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallDocViewController.m; sourceTree = "<group>"; };
+		845D8C221A036BD7001ADBCA /* GlobleConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobleConst.h; sourceTree = "<group>"; };
+		845D8C231A036BD7001ADBCA /* Globle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globle.h; sourceTree = "<group>"; };
+		845D8C241A036BD7001ADBCA /* Globle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globle.m; sourceTree = "<group>"; };
+		845D8C2A1A036C9C001ADBCA /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		845D8C2B1A036C9C001ADBCA /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		D68803C4A4254B88BF34F23B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5547A80812F4A50978109BC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +83,8 @@
 				845D8BE81A0366B6001ADBCA /* olasiphone */,
 				845D8C021A0366B6001ADBCA /* olasiphoneTests */,
 				845D8BE71A0366B6001ADBCA /* Products */,
+				16B052BF789C4B7EBB2BCA95 /* Pods.xcconfig */,
+				EE971169A97B46B19297087C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,9 +100,11 @@
 		845D8BE81A0366B6001ADBCA /* olasiphone */ = {
 			isa = PBXGroup;
 			children = (
-				845D8C0F1A03671D001ADBCA /* ViewController */,
+				845D8C271A036C4A001ADBCA /* Lib */,
 				845D8BED1A0366B6001ADBCA /* AppDelegate.h */,
 				845D8BEE1A0366B6001ADBCA /* AppDelegate.m */,
+				845D8C211A036BB0001ADBCA /* Globel */,
+				845D8C0F1A03671D001ADBCA /* ViewController */,
 				845D8BF61A0366B6001ADBCA /* Images.xcassets */,
 				845D8BF81A0366B6001ADBCA /* LaunchScreen.xib */,
 				845D8BE91A0366B6001ADBCA /* Supporting Files */,
@@ -120,6 +141,9 @@
 		845D8C0F1A03671D001ADBCA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				845D8C281A036C84001ADBCA /* Common */,
+				845D8C191A036B65001ADBCA /* AggreementViewController */,
+				845D8C1C1A036B65001ADBCA /* InstallDocViewController */,
 				845D8C101A03671D001ADBCA /* BaseViewCotroller */,
 			);
 			path = ViewController;
@@ -135,6 +159,66 @@
 			path = BaseViewCotroller;
 			sourceTree = "<group>";
 		};
+		845D8C191A036B65001ADBCA /* AggreementViewController */ = {
+			isa = PBXGroup;
+			children = (
+				845D8C1A1A036B65001ADBCA /* AgreementViewController.h */,
+				845D8C1B1A036B65001ADBCA /* AgreementViewController.m */,
+			);
+			path = AggreementViewController;
+			sourceTree = "<group>";
+		};
+		845D8C1C1A036B65001ADBCA /* InstallDocViewController */ = {
+			isa = PBXGroup;
+			children = (
+				845D8C1D1A036B65001ADBCA /* InstallDocViewController.h */,
+				845D8C1E1A036B65001ADBCA /* InstallDocViewController.m */,
+			);
+			path = InstallDocViewController;
+			sourceTree = "<group>";
+		};
+		845D8C211A036BB0001ADBCA /* Globel */ = {
+			isa = PBXGroup;
+			children = (
+				845D8C221A036BD7001ADBCA /* GlobleConst.h */,
+				845D8C231A036BD7001ADBCA /* Globle.h */,
+				845D8C241A036BD7001ADBCA /* Globle.m */,
+			);
+			path = Globel;
+			sourceTree = "<group>";
+		};
+		845D8C271A036C4A001ADBCA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		845D8C281A036C84001ADBCA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				845D8C291A036C9C001ADBCA /* MyLabel */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		845D8C291A036C9C001ADBCA /* MyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				845D8C2A1A036C9C001ADBCA /* MyLabel.h */,
+				845D8C2B1A036C9C001ADBCA /* MyLabel.m */,
+			);
+			path = MyLabel;
+			sourceTree = "<group>";
+		};
+		EE971169A97B46B19297087C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D68803C4A4254B88BF34F23B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845D8C091A0366B6001ADBCA /* Build configuration list for PBXNativeTarget "olasiphone" */;
 			buildPhases = (
+				86C9D195539641A9B109F1D5 /* Check Pods Manifest.lock */,
 				845D8BE21A0366B6001ADBCA /* Sources */,
 				845D8BE31A0366B6001ADBCA /* Frameworks */,
 				845D8BE41A0366B6001ADBCA /* Resources */,
+				D93AC07E5A2F4EF9BD922A10 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,14 +316,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86C9D195539641A9B109F1D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D93AC07E5A2F4EF9BD922A10 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		845D8BE21A0366B6001ADBCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845D8C251A036BD7001ADBCA /* Globle.m in Sources */,
 				845D8BEF1A0366B6001ADBCA /* AppDelegate.m in Sources */,
+				845D8C2C1A036C9C001ADBCA /* MyLabel.m in Sources */,
+				845D8C201A036B65001ADBCA /* InstallDocViewController.m in Sources */,
 				845D8C171A0367E1001ADBCA /* BaseViewController.m in Sources */,
 				845D8BEC1A0366B6001ADBCA /* main.m in Sources */,
+				845D8C1F1A036B65001ADBCA /* AgreementViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +472,7 @@
 		};
 		845D8C0A1A0366B6001ADBCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B052BF789C4B7EBB2BCA95 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = olasiphone/Info.plist;
@@ -359,6 +483,7 @@
 		};
 		845D8C0B1A0366B6001ADBCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B052BF789C4B7EBB2BCA95 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = olasiphone/Info.plist;
@@ -420,6 +545,7 @@
 				845D8C0B1A0366B6001ADBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845D8C0C1A0366B6001ADBCA /* Build configuration list for PBXNativeTarget "olasiphoneTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +554,7 @@
 				845D8C0E1A0366B6001ADBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
