@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "BaseViewController.h"
-
 @interface AppDelegate ()
 
 @end
@@ -23,7 +22,6 @@
     BaseViewController *base = [BaseViewController new];
     self.window.rootViewController = base;
     [self.window makeKeyAndVisible];
-    return YES;
     return YES;
 }
 

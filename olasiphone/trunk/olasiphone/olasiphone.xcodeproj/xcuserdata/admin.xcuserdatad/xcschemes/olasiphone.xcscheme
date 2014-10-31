@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "845D8BA31A0363CD001ADBCA"
+               BlueprintIdentifier = "845D8BE51A0366B6001ADBCA"
                BuildableName = "olasiphone.app"
                BlueprintName = "olasiphone"
                ReferencedContainer = "container:olasiphone.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "845D8BBC1A0363CD001ADBCA"
+               BlueprintIdentifier = "845D8BFE1A0366B6001ADBCA"
                BuildableName = "olasiphoneTests.xctest"
                BlueprintName = "olasiphoneTests"
                ReferencedContainer = "container:olasiphone.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "845D8BBC1A0363CD001ADBCA"
+               BlueprintIdentifier = "845D8BFE1A0366B6001ADBCA"
                BuildableName = "olasiphoneTests.xctest"
                BlueprintName = "olasiphoneTests"
                ReferencedContainer = "container:olasiphone.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "845D8BA31A0363CD001ADBCA"
+            BlueprintIdentifier = "845D8BE51A0366B6001ADBCA"
             BuildableName = "olasiphone.app"
             BlueprintName = "olasiphone"
             ReferencedContainer = "container:olasiphone.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "845D8BA31A0363CD001ADBCA"
+            BlueprintIdentifier = "845D8BE51A0366B6001ADBCA"
             BuildableName = "olasiphone.app"
             BlueprintName = "olasiphone"
             ReferencedContainer = "container:olasiphone.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "845D8BA31A0363CD001ADBCA"
+            BlueprintIdentifier = "845D8BE51A0366B6001ADBCA"
             BuildableName = "olasiphone.app"
             BlueprintName = "olasiphone"
             ReferencedContainer = "container:olasiphone.xcodeproj">

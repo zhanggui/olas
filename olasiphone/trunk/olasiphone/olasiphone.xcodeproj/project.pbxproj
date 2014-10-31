@@ -7,52 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F00D7E258DE4F1993350A8B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D92882147604D89B2C8B206 /* libPods.a */; };
-		845D8BAA1A0363CD001ADBCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8BA91A0363CD001ADBCA /* main.m */; };
-		845D8BAD1A0363CD001ADBCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8BAC1A0363CD001ADBCA /* AppDelegate.m */; };
-		845D8BB51A0363CD001ADBCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D8BB41A0363CD001ADBCA /* Images.xcassets */; };
-		845D8BB81A0363CD001ADBCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D8BB61A0363CD001ADBCA /* LaunchScreen.xib */; };
-		845D8BC41A0363CD001ADBCA /* olasiphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8BC31A0363CD001ADBCA /* olasiphoneTests.m */; };
-		845D8BD11A0364B5001ADBCA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8BD01A0364B5001ADBCA /* BaseViewController.m */; };
+		845D8BEC1A0366B6001ADBCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8BEB1A0366B6001ADBCA /* main.m */; };
+		845D8BEF1A0366B6001ADBCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8BEE1A0366B6001ADBCA /* AppDelegate.m */; };
+		845D8BF71A0366B6001ADBCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D8BF61A0366B6001ADBCA /* Images.xcassets */; };
+		845D8BFA1A0366B6001ADBCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D8BF81A0366B6001ADBCA /* LaunchScreen.xib */; };
+		845D8C061A0366B6001ADBCA /* olasiphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C051A0366B6001ADBCA /* olasiphoneTests.m */; };
+		845D8C131A036731001ADBCA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8C121A036731001ADBCA /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		845D8BBE1A0363CD001ADBCA /* PBXContainerItemProxy */ = {
+		845D8C001A0366B6001ADBCA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 845D8B9C1A0363CD001ADBCA /* Project object */;
+			containerPortal = 845D8BDE1A0366B6001ADBCA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 845D8BA31A0363CD001ADBCA;
+			remoteGlobalIDString = 845D8BE51A0366B6001ADBCA;
 			remoteInfo = olasiphone;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D92882147604D89B2C8B206 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BB1F616C4494FCAB6BF9208 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		845D8BA41A0363CD001ADBCA /* olasiphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olasiphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		845D8BA81A0363CD001ADBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		845D8BA91A0363CD001ADBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		845D8BAB1A0363CD001ADBCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		845D8BAC1A0363CD001ADBCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		845D8BB41A0363CD001ADBCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		845D8BB71A0363CD001ADBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		845D8BBD1A0363CD001ADBCA /* olasiphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olasiphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		845D8BC21A0363CD001ADBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		845D8BC31A0363CD001ADBCA /* olasiphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = olasiphoneTests.m; sourceTree = "<group>"; };
-		845D8BCF1A0364B5001ADBCA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		845D8BD01A0364B5001ADBCA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		845D8BE61A0366B6001ADBCA /* olasiphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olasiphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845D8BEA1A0366B6001ADBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845D8BEB1A0366B6001ADBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845D8BED1A0366B6001ADBCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845D8BEE1A0366B6001ADBCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845D8BF61A0366B6001ADBCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		845D8BF91A0366B6001ADBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		845D8BFF1A0366B6001ADBCA /* olasiphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olasiphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845D8C041A0366B6001ADBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845D8C051A0366B6001ADBCA /* olasiphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = olasiphoneTests.m; sourceTree = "<group>"; };
+		845D8C111A036731001ADBCA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		845D8C121A036731001ADBCA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		845D8BA11A0363CD001ADBCA /* Frameworks */ = {
+		845D8BE31A0366B6001ADBCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F00D7E258DE4F1993350A8B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		845D8BBA1A0363CD001ADBCA /* Frameworks */ = {
+		845D8BFC1A0366B6001ADBCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,102 +58,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03E93B4B167A42ACBA0D326A /* Frameworks */ = {
+		845D8BDD1A0366B6001ADBCA = {
 			isa = PBXGroup;
 			children = (
-				4D92882147604D89B2C8B206 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		845D8B9B1A0363CD001ADBCA = {
-			isa = PBXGroup;
-			children = (
-				845D8BA61A0363CD001ADBCA /* olasiphone */,
-				845D8BC01A0363CD001ADBCA /* olasiphoneTests */,
-				845D8BA51A0363CD001ADBCA /* Products */,
-				5BB1F616C4494FCAB6BF9208 /* Pods.xcconfig */,
-				03E93B4B167A42ACBA0D326A /* Frameworks */,
+				845D8BE81A0366B6001ADBCA /* olasiphone */,
+				845D8C021A0366B6001ADBCA /* olasiphoneTests */,
+				845D8BE71A0366B6001ADBCA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		845D8BA51A0363CD001ADBCA /* Products */ = {
+		845D8BE71A0366B6001ADBCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				845D8BA41A0363CD001ADBCA /* olasiphone.app */,
-				845D8BBD1A0363CD001ADBCA /* olasiphoneTests.xctest */,
+				845D8BE61A0366B6001ADBCA /* olasiphone.app */,
+				845D8BFF1A0366B6001ADBCA /* olasiphoneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		845D8BA61A0363CD001ADBCA /* olasiphone */ = {
+		845D8BE81A0366B6001ADBCA /* olasiphone */ = {
 			isa = PBXGroup;
 			children = (
-				845D8BAB1A0363CD001ADBCA /* AppDelegate.h */,
-				845D8BAC1A0363CD001ADBCA /* AppDelegate.m */,
-				845D8BCD1A03647B001ADBCA /* ViewController */,
-				845D8BB41A0363CD001ADBCA /* Images.xcassets */,
-				845D8BB61A0363CD001ADBCA /* LaunchScreen.xib */,
-				845D8BA71A0363CD001ADBCA /* Supporting Files */,
+				845D8C0F1A03671D001ADBCA /* ViewController */,
+				845D8BED1A0366B6001ADBCA /* AppDelegate.h */,
+				845D8BEE1A0366B6001ADBCA /* AppDelegate.m */,
+				845D8BF61A0366B6001ADBCA /* Images.xcassets */,
+				845D8BF81A0366B6001ADBCA /* LaunchScreen.xib */,
+				845D8BE91A0366B6001ADBCA /* Supporting Files */,
 			);
 			path = olasiphone;
 			sourceTree = "<group>";
 		};
-		845D8BA71A0363CD001ADBCA /* Supporting Files */ = {
+		845D8BE91A0366B6001ADBCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				845D8BA81A0363CD001ADBCA /* Info.plist */,
-				845D8BA91A0363CD001ADBCA /* main.m */,
+				845D8BEA1A0366B6001ADBCA /* Info.plist */,
+				845D8BEB1A0366B6001ADBCA /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		845D8BC01A0363CD001ADBCA /* olasiphoneTests */ = {
+		845D8C021A0366B6001ADBCA /* olasiphoneTests */ = {
 			isa = PBXGroup;
 			children = (
-				845D8BC31A0363CD001ADBCA /* olasiphoneTests.m */,
-				845D8BC11A0363CD001ADBCA /* Supporting Files */,
+				845D8C051A0366B6001ADBCA /* olasiphoneTests.m */,
+				845D8C031A0366B6001ADBCA /* Supporting Files */,
 			);
 			path = olasiphoneTests;
 			sourceTree = "<group>";
 		};
-		845D8BC11A0363CD001ADBCA /* Supporting Files */ = {
+		845D8C031A0366B6001ADBCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				845D8BC21A0363CD001ADBCA /* Info.plist */,
+				845D8C041A0366B6001ADBCA /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		845D8BCD1A03647B001ADBCA /* ViewController */ = {
+		845D8C0F1A03671D001ADBCA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				845D8BCE1A0364A0001ADBCA /* BaseViewController */,
+				845D8C101A03671D001ADBCA /* BaseViewCotroller */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		845D8BCE1A0364A0001ADBCA /* BaseViewController */ = {
+		845D8C101A03671D001ADBCA /* BaseViewCotroller */ = {
 			isa = PBXGroup;
 			children = (
-				845D8BCF1A0364B5001ADBCA /* BaseViewController.h */,
-				845D8BD01A0364B5001ADBCA /* BaseViewController.m */,
+				845D8C111A036731001ADBCA /* BaseViewController.h */,
+				845D8C121A036731001ADBCA /* BaseViewController.m */,
 			);
-			path = BaseViewController;
+			path = BaseViewCotroller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		845D8BA31A0363CD001ADBCA /* olasiphone */ = {
+		845D8BE51A0366B6001ADBCA /* olasiphone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 845D8BC71A0363CD001ADBCA /* Build configuration list for PBXNativeTarget "olasiphone" */;
+			buildConfigurationList = 845D8C091A0366B6001ADBCA /* Build configuration list for PBXNativeTarget "olasiphone" */;
 			buildPhases = (
-				E90BFEF88D704626BE83B144 /* Check Pods Manifest.lock */,
-				845D8BA01A0363CD001ADBCA /* Sources */,
-				845D8BA11A0363CD001ADBCA /* Frameworks */,
-				845D8BA21A0363CD001ADBCA /* Resources */,
-				51C613CC3B53492991515161 /* Copy Pods Resources */,
+				845D8BE21A0366B6001ADBCA /* Sources */,
+				845D8BE31A0366B6001ADBCA /* Frameworks */,
+				845D8BE41A0366B6001ADBCA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -165,46 +149,46 @@
 			);
 			name = olasiphone;
 			productName = olasiphone;
-			productReference = 845D8BA41A0363CD001ADBCA /* olasiphone.app */;
+			productReference = 845D8BE61A0366B6001ADBCA /* olasiphone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		845D8BBC1A0363CD001ADBCA /* olasiphoneTests */ = {
+		845D8BFE1A0366B6001ADBCA /* olasiphoneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 845D8BCA1A0363CD001ADBCA /* Build configuration list for PBXNativeTarget "olasiphoneTests" */;
+			buildConfigurationList = 845D8C0C1A0366B6001ADBCA /* Build configuration list for PBXNativeTarget "olasiphoneTests" */;
 			buildPhases = (
-				845D8BB91A0363CD001ADBCA /* Sources */,
-				845D8BBA1A0363CD001ADBCA /* Frameworks */,
-				845D8BBB1A0363CD001ADBCA /* Resources */,
+				845D8BFB1A0366B6001ADBCA /* Sources */,
+				845D8BFC1A0366B6001ADBCA /* Frameworks */,
+				845D8BFD1A0366B6001ADBCA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				845D8BBF1A0363CD001ADBCA /* PBXTargetDependency */,
+				845D8C011A0366B6001ADBCA /* PBXTargetDependency */,
 			);
 			name = olasiphoneTests;
 			productName = olasiphoneTests;
-			productReference = 845D8BBD1A0363CD001ADBCA /* olasiphoneTests.xctest */;
+			productReference = 845D8BFF1A0366B6001ADBCA /* olasiphoneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		845D8B9C1A0363CD001ADBCA /* Project object */ = {
+		845D8BDE1A0366B6001ADBCA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = xiaoguizi;
 				TargetAttributes = {
-					845D8BA31A0363CD001ADBCA = {
+					845D8BE51A0366B6001ADBCA = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					845D8BBC1A0363CD001ADBCA = {
+					845D8BFE1A0366B6001ADBCA = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 845D8BA31A0363CD001ADBCA;
+						TestTargetID = 845D8BE51A0366B6001ADBCA;
 					};
 				};
 			};
-			buildConfigurationList = 845D8B9F1A0363CD001ADBCA /* Build configuration list for PBXProject "olasiphone" */;
+			buildConfigurationList = 845D8BE11A0366B6001ADBCA /* Build configuration list for PBXProject "olasiphone" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,28 +196,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 845D8B9B1A0363CD001ADBCA;
-			productRefGroup = 845D8BA51A0363CD001ADBCA /* Products */;
+			mainGroup = 845D8BDD1A0366B6001ADBCA;
+			productRefGroup = 845D8BE71A0366B6001ADBCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				845D8BA31A0363CD001ADBCA /* olasiphone */,
-				845D8BBC1A0363CD001ADBCA /* olasiphoneTests */,
+				845D8BE51A0366B6001ADBCA /* olasiphone */,
+				845D8BFE1A0366B6001ADBCA /* olasiphoneTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		845D8BA21A0363CD001ADBCA /* Resources */ = {
+		845D8BE41A0366B6001ADBCA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845D8BB81A0363CD001ADBCA /* LaunchScreen.xib in Resources */,
-				845D8BB51A0363CD001ADBCA /* Images.xcassets in Resources */,
+				845D8BFA1A0366B6001ADBCA /* LaunchScreen.xib in Resources */,
+				845D8BF71A0366B6001ADBCA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		845D8BBB1A0363CD001ADBCA /* Resources */ = {
+		845D8BFD1A0366B6001ADBCA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,73 +226,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		51C613CC3B53492991515161 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E90BFEF88D704626BE83B144 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		845D8BA01A0363CD001ADBCA /* Sources */ = {
+		845D8BE21A0366B6001ADBCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845D8BAD1A0363CD001ADBCA /* AppDelegate.m in Sources */,
-				845D8BD11A0364B5001ADBCA /* BaseViewController.m in Sources */,
-				845D8BAA1A0363CD001ADBCA /* main.m in Sources */,
+				845D8BEF1A0366B6001ADBCA /* AppDelegate.m in Sources */,
+				845D8C131A036731001ADBCA /* BaseViewController.m in Sources */,
+				845D8BEC1A0366B6001ADBCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		845D8BB91A0363CD001ADBCA /* Sources */ = {
+		845D8BFB1A0366B6001ADBCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845D8BC41A0363CD001ADBCA /* olasiphoneTests.m in Sources */,
+				845D8C061A0366B6001ADBCA /* olasiphoneTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		845D8BBF1A0363CD001ADBCA /* PBXTargetDependency */ = {
+		845D8C011A0366B6001ADBCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 845D8BA31A0363CD001ADBCA /* olasiphone */;
-			targetProxy = 845D8BBE1A0363CD001ADBCA /* PBXContainerItemProxy */;
+			target = 845D8BE51A0366B6001ADBCA /* olasiphone */;
+			targetProxy = 845D8C001A0366B6001ADBCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		845D8BB61A0363CD001ADBCA /* LaunchScreen.xib */ = {
+		845D8BF81A0366B6001ADBCA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				845D8BB71A0363CD001ADBCA /* Base */,
+				845D8BF91A0366B6001ADBCA /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -316,7 +267,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		845D8BC51A0363CD001ADBCA /* Debug */ = {
+		845D8C071A0366B6001ADBCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		845D8BC61A0363CD001ADBCA /* Release */ = {
+		845D8C081A0366B6001ADBCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,9 +343,8 @@
 			};
 			name = Release;
 		};
-		845D8BC81A0363CD001ADBCA /* Debug */ = {
+		845D8C0A1A0366B6001ADBCA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BB1F616C4494FCAB6BF9208 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = olasiphone/Info.plist;
@@ -403,9 +353,8 @@
 			};
 			name = Debug;
 		};
-		845D8BC91A0363CD001ADBCA /* Release */ = {
+		845D8C0B1A0366B6001ADBCA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BB1F616C4494FCAB6BF9208 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = olasiphone/Info.plist;
@@ -414,7 +363,7 @@
 			};
 			name = Release;
 		};
-		845D8BCB1A0363CD001ADBCA /* Debug */ = {
+		845D8C0D1A0366B6001ADBCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -433,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		845D8BCC1A0363CD001ADBCA /* Release */ = {
+		845D8C0E1A0366B6001ADBCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -451,34 +400,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		845D8B9F1A0363CD001ADBCA /* Build configuration list for PBXProject "olasiphone" */ = {
+		845D8BE11A0366B6001ADBCA /* Build configuration list for PBXProject "olasiphone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				845D8BC51A0363CD001ADBCA /* Debug */,
-				845D8BC61A0363CD001ADBCA /* Release */,
+				845D8C071A0366B6001ADBCA /* Debug */,
+				845D8C081A0366B6001ADBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		845D8BC71A0363CD001ADBCA /* Build configuration list for PBXNativeTarget "olasiphone" */ = {
+		845D8C091A0366B6001ADBCA /* Build configuration list for PBXNativeTarget "olasiphone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				845D8BC81A0363CD001ADBCA /* Debug */,
-				845D8BC91A0363CD001ADBCA /* Release */,
+				845D8C0A1A0366B6001ADBCA /* Debug */,
+				845D8C0B1A0366B6001ADBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		845D8BCA1A0363CD001ADBCA /* Build configuration list for PBXNativeTarget "olasiphoneTests" */ = {
+		845D8C0C1A0366B6001ADBCA /* Build configuration list for PBXNativeTarget "olasiphoneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				845D8BCB1A0363CD001ADBCA /* Debug */,
-				845D8BCC1A0363CD001ADBCA /* Release */,
+				845D8C0D1A0366B6001ADBCA /* Debug */,
+				845D8C0E1A0366B6001ADBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 845D8B9C1A0363CD001ADBCA /* Project object */;
+	rootObject = 845D8BDE1A0366B6001ADBCA /* Project object */;
 }
