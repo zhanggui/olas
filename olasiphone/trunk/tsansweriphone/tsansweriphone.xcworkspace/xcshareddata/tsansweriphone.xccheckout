@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>16C7B45D-7E55-4366-A855-2E1E4C3227E6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tsansweriphone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>87b48b42-7e6d-4b16-a70b-b05d8dd3fa67</key>
+		<string>https://948602689%40qq.com@svn.sinaapp.com/olasforiphone</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>1/trunk/tsansweriphone/tsansweriphone.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>87b48b42-7e6d-4b16-a70b-b05d8dd3fa67</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>87b48b42-7e6d-4b16-a70b-b05d8dd3fa67</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87b48b42-7e6d-4b16-a70b-b05d8dd3fa67</string>
+			<key>IDESourceControlWCCName</key>
+			<string>olasforiphone</string>
+		</dict>
+	</array>
+</dict>
+</plist>
