@@ -16,4 +16,6 @@
 
 -(void)HUDHide;
 -(void)HUDShowText:(NSString *)text;
+
+-(void)addGesTapGesture;
 @end

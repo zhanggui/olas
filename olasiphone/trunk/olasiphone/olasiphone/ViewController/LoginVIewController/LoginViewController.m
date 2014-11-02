@@ -16,22 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    [self addGesTapGesture];
     _contentView.frame = CGRectMake(42, 540, 236, 258);
     [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:0.5];
+    [UIView setAnimationDuration:1.0];
     CGAffineTransform moveTransform = CGAffineTransformMakeTranslation(0, -435);
     [_contentView.layer setAffineTransform:moveTransform];
     [UIView commitAnimations];
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideTapGesture:)];
-    [self.view addGestureRecognizer:tap];
+   
 }
 
--(void)hideTapGesture:(UITapGestureRecognizer *)v
-{
-    [self.view endEditing:YES];
-}
+
 - (IBAction)LoginAction:(id)sender {
+    [self.view endEditing:YES];
     [self HUDShowText:@"登录中..."];
 }
 @end

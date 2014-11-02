@@ -54,4 +54,16 @@ static MBProgressHUD *hud;
 {
     [_hud hide:YES];
 }
+
+
+-(void)addGesTapGesture
+{
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideTapGesture:)];
+    [self.view addGestureRecognizer:tap];
+}
+
+-(void)hideTapGesture:(UITapGestureRecognizer *)v
+{
+    [self.view endEditing:YES];
+}
 @end
