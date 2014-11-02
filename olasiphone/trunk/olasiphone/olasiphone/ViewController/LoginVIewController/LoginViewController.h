@@ -11,4 +11,5 @@
 @interface LoginViewController : BaseViewController
 
 @property (weak, nonatomic) IBOutlet UIView *contentView;
+- (IBAction)LoginAction:(id)sender;
 @end

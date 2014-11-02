@@ -31,4 +31,7 @@
 {
     [self.view endEditing:YES];
 }
+- (IBAction)LoginAction:(id)sender {
+    [self HUDShowText:@"登录中..."];
+}
 @end

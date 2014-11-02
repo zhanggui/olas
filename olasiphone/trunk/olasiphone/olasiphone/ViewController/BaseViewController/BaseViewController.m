@@ -14,9 +14,17 @@
 
 @implementation BaseViewController
 
+static MBProgressHUD *hud;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    if (!_hud) {
+        if (!hud) {
+            hud = [[MBProgressHUD alloc] initWithView:self.view];
+        }
+        _hud = hud;
+    }
+    
+    [[UIApplication sharedApplication].keyWindow addSubview:_hud];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,5 +40,18 @@
     _hud.labelText = text;
     [_hud show:YES];
     [_hud hide:YES afterDelay:1];
+}
+
+-(void)HUDShowText:(NSString *)text
+{
+    [[[[UIApplication sharedApplication] delegate] window] addSubview:_hud];
+    [_hud show:YES];
+    _hud.mode = MBProgressHUDModeIndeterminate;
+    _hud.dimBackground = YES;
+    _hud.labelText = text;
+}
+-(void)HUDHide
+{
+    [_hud hide:YES];
 }
 @end

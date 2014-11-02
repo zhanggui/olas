@@ -52,6 +52,9 @@
                             <state key="normal" title="登录">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="LoginAction:" destination="-1" eventType="touchUpInside" id="8aI-rJ-p3y"/>
+                            </connections>
                         </button>
                         <textField autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="密码" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" id="b1s-dp-EnP">
                             <rect key="frame" x="43" y="77" width="182" height="32"/>

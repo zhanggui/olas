@@ -11,5 +11,9 @@
 @interface BaseViewController : UIViewController
 
 @property(nonatomic,strong)MBProgressHUD *hud;
+
 -(void)alert:(NSString *)text;
+
+-(void)HUDHide;
+-(void)HUDShowText:(NSString *)text;
 @end
