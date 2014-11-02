@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		843D7A221A05264B007FC689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7A211A05264B007FC689 /* main.m */; };
 		843D7A251A05264B007FC689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7A241A05264B007FC689 /* AppDelegate.m */; };
-		843D7A281A05264B007FC689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7A271A05264B007FC689 /* ViewController.m */; };
 		843D7A2D1A05264B007FC689 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843D7A2C1A05264B007FC689 /* Images.xcassets */; };
 		843D7A3C1A05264C007FC689 /* olasiphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7A3B1A05264C007FC689 /* olasiphoneTests.m */; };
 		843D7A4A1A05FF2B007FC689 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7A491A05FF2B007FC689 /* BaseViewController.m */; };
 		843D7A4E1A060401007FC689 /* Globle.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7A4D1A060401007FC689 /* Globle.m */; };
+		843D7A541A0617B9007FC689 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7A521A0617B9007FC689 /* LoginViewController.m */; };
+		843D7A551A0617B9007FC689 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843D7A531A0617B9007FC689 /* LoginViewController.xib */; };
+		843D7A5B1A061FF1007FC689 /* loginPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D7A581A061FF1007FC689 /* loginPhoto.png */; };
+		843D7A5D1A061FF1007FC689 /* loginPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D7A5A1A061FF1007FC689 /* loginPhoto@2x.png */; };
+		843D7A601A0624A5007FC689 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D7A5E1A0624A5007FC689 /* password.png */; };
+		843D7A611A0624A5007FC689 /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D7A5F1A0624A5007FC689 /* password@2x.png */; };
 		8D672CBCA49FF09AC10CCBC4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9622701390183C633BA96F6C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +40,6 @@
 		843D7A211A05264B007FC689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		843D7A231A05264B007FC689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		843D7A241A05264B007FC689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		843D7A261A05264B007FC689 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		843D7A271A05264B007FC689 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		843D7A2C1A05264B007FC689 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		843D7A351A05264C007FC689 /* olasiphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olasiphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843D7A3A1A05264C007FC689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		843D7A4C1A060401007FC689 /* Globle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globle.h; sourceTree = "<group>"; };
 		843D7A4D1A060401007FC689 /* Globle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globle.m; sourceTree = "<group>"; };
 		843D7A4F1A060413007FC689 /* GlobleConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobleConst.h; sourceTree = "<group>"; };
+		843D7A511A0617B9007FC689 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		843D7A521A0617B9007FC689 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		843D7A531A0617B9007FC689 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		843D7A581A061FF1007FC689 /* loginPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginPhoto.png; sourceTree = "<group>"; };
+		843D7A5A1A061FF1007FC689 /* loginPhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginPhoto@2x.png"; sourceTree = "<group>"; };
+		843D7A5E1A0624A5007FC689 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		843D7A5F1A0624A5007FC689 /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password@2x.png"; sourceTree = "<group>"; };
 		9622701390183C633BA96F6C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,12 +111,11 @@
 		843D7A1E1A05264B007FC689 /* olasiphone */ = {
 			isa = PBXGroup;
 			children = (
+				843D7A561A061FCF007FC689 /* Resources */,
 				843D7A231A05264B007FC689 /* AppDelegate.h */,
 				843D7A241A05264B007FC689 /* AppDelegate.m */,
 				843D7A4B1A0603C0007FC689 /* Globel */,
 				843D7A461A05FF19007FC689 /* ViewController */,
-				843D7A261A05264B007FC689 /* ViewController.h */,
-				843D7A271A05264B007FC689 /* ViewController.m */,
 				843D7A2C1A05264B007FC689 /* Images.xcassets */,
 				843D7A1F1A05264B007FC689 /* Supporting Files */,
 			);
@@ -143,6 +152,7 @@
 		843D7A461A05FF19007FC689 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				843D7A501A06177E007FC689 /* LoginVIewController */,
 				843D7A471A05FF19007FC689 /* BaseViewController */,
 			);
 			path = ViewController;
@@ -165,6 +175,35 @@
 				843D7A4D1A060401007FC689 /* Globle.m */,
 			);
 			path = Globel;
+			sourceTree = "<group>";
+		};
+		843D7A501A06177E007FC689 /* LoginVIewController */ = {
+			isa = PBXGroup;
+			children = (
+				843D7A511A0617B9007FC689 /* LoginViewController.h */,
+				843D7A521A0617B9007FC689 /* LoginViewController.m */,
+				843D7A531A0617B9007FC689 /* LoginViewController.xib */,
+			);
+			path = LoginVIewController;
+			sourceTree = "<group>";
+		};
+		843D7A561A061FCF007FC689 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				843D7A571A061FF1007FC689 /* loginImages */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		843D7A571A061FF1007FC689 /* loginImages */ = {
+			isa = PBXGroup;
+			children = (
+				843D7A5E1A0624A5007FC689 /* password.png */,
+				843D7A5F1A0624A5007FC689 /* password@2x.png */,
+				843D7A581A061FF1007FC689 /* loginPhoto.png */,
+				843D7A5A1A061FF1007FC689 /* loginPhoto@2x.png */,
+			);
+			path = loginImages;
 			sourceTree = "<group>";
 		};
 		E1B5B04BBCBD868A659D0308 /* Frameworks */ = {
@@ -257,6 +296,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843D7A5B1A061FF1007FC689 /* loginPhoto.png in Resources */,
+				843D7A551A0617B9007FC689 /* LoginViewController.xib in Resources */,
+				843D7A601A0624A5007FC689 /* password.png in Resources */,
+				843D7A611A0624A5007FC689 /* password@2x.png in Resources */,
+				843D7A5D1A061FF1007FC689 /* loginPhoto@2x.png in Resources */,
 				843D7A2D1A05264B007FC689 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,8 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843D7A281A05264B007FC689 /* ViewController.m in Sources */,
 				843D7A4A1A05FF2B007FC689 /* BaseViewController.m in Sources */,
+				843D7A541A0617B9007FC689 /* LoginViewController.m in Sources */,
 				843D7A4E1A060401007FC689 /* Globle.m in Sources */,
 				843D7A251A05264B007FC689 /* AppDelegate.m in Sources */,
 				843D7A221A05264B007FC689 /* main.m in Sources */,
